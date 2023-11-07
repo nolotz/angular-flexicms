@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@angular-typo3/cmslib": ["libs/cmslib/src/index.ts"],
+      "@angular-typo3/cmsui": ["libs/cmsui/src/index.ts"],
+      "@angular-typo3/core": ["libs/core/src/index.ts"],
+      "@angular-typo3/gridelements": ["libs/gridelements/src/index.ts"],
+      "@angular-typo3/headless": ["libs/headless/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
